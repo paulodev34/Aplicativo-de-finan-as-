@@ -1,11 +1,13 @@
 import React from "react";
+import Global from "./styles/global";
 import Header from "./componentes/Header";
-import Global from "./global";
+import Resumo from "./componentes/Resume/Resumo";
 
 const App = () => {
   return (
     <>
       <Header />
+      <Resumo />
       <Global />
     </>
   );
