@@ -4,12 +4,13 @@ export const Container = styled.div`
   max-width: 1120px;
   margin: 20px auto;
   width: 98%;
-  background-color: #fff;
+  background-color: #fff1ff;
   box-shadow: 0 0 5px #ccc;
   border-radius: 5px;
   display: flex;
   justify-content: space-around;
   padding: 15px 0;
+  color: black;
   gap: 10px;
 
   @media (max-width: 750px) {
@@ -50,5 +51,5 @@ export const Button = styled.button`
   border-radius: 5px;
   cursor: pointer;
   color: white;
-  background-color: teal;
+  background-color: #161934;
 `;
