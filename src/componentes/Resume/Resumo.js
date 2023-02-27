@@ -10,12 +10,12 @@ import {
 const Resumo = ({ income, expense, total }) => {
   return (
     <C.Container>
-      <ResumeItem title="Entrada" Icon={FaRegArrowAltCircleUp} value={income} />
       <ResumeItem
-        title="Saída"
+        title="Entrada"
         Icon={FaRegArrowAltCircleDown}
-        value={expense}
+        value={income}
       />
+      <ResumeItem title="Saída" Icon={FaRegArrowAltCircleUp} value={expense} />
       <ResumeItem title="Total" Icon={FaDollarSign} value={total} />
     </C.Container>
   );
